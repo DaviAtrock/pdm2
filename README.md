@@ -1,1 +1,1 @@
-# Repositório das de PDM
+# Repositório das aulas de PDM
