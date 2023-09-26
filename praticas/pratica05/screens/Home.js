@@ -1,13 +1,13 @@
 import { View, Text, Button } from 'react-native';
 
-const Home = () => {
+const Home = ({navigation}) => {
   return (
     <View style={{
       flex: 1,
       justifyContent: 'center',
     }} >
     <Text>Home</Text>
-    <Button title="Perfil" onPress={() => {}} /> 
+    <Button title="Perfil" onPress={() => navigation.navigate('Perfil')} /> 
     </View>  
   );
 };
